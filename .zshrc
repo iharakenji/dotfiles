@@ -2,9 +2,15 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
+export JAVA_HOME=$(/usr/libexec/java_home)
+export DOCKER_HOST=tcp://localhost:2375
  
+# 補完定義ファイルを読み込み
+fpath=($(brew --prefix)/share/zsh/site-functions $fpath)
+
 # パスの設定
-PATH=$PATH:~/.cabal/bin
+export PATH="$HOME/.rbenv/bin:$HOME/.cabal/bin:/usr/local/bin/:$PATH"
+eval "$(rbenv init -)"
  
 # 色を使用出来るようにする
 autoload -Uz colors
