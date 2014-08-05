@@ -2,6 +2,7 @@ update
 upgrade
  
 # homebrew-cask設定、インストール
+tap homebrew/binary
 tap homebrew/versions
 tap phinze/homebrew-cask
 
