@@ -4,6 +4,8 @@ upgrade
 tap homebrew/binary
 tap homebrew/versions
 tap phinze/homebrew-cask
+# for ricty
+tap sanemat/font
 # 各種インストール
 install brew-cask
 install rbenv ruby-build
@@ -24,6 +26,7 @@ cask install java
 cask install intellij-idea
 cask install iterm2
 cask install google-chrome
+cask install google-japanese-ime
 cask install virtualbox
 cask install vagrant
 cask install kobito
@@ -36,3 +39,5 @@ cask install omnifocus
 cask install skitch
 cask install sequel-pro
 cask install lastpass-universal
+cask install skype
+cask alfred link
