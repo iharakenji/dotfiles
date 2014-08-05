@@ -38,12 +38,7 @@ cask install alfred
 cask install dropbox
 cask install evernote
 cask install xtrafinder
-cask install yorufukurou
 cask install omnifocus
-cask install pckeyboardhack
-cask install keyremap4macbook
 cask install skitch
-cask install github
 cask install sequel-pro
 cask install lastpass-universal
-cask install totalspaces2
