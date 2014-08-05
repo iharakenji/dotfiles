@@ -1,12 +1,9 @@
 update
 upgrade
- 
 # homebrew-cask設定、インストール
 tap homebrew/binary
 tap homebrew/versions
 tap phinze/homebrew-cask
-
- 
 # 各種インストール
 install brew-cask
 install rbenv ruby-build
@@ -22,12 +19,9 @@ install ivy sbt scala giter8 typesafe-activator
 install groovy grails gradle griffon
 install node
 install jetty tomcat nginx
-
 cask install java
- 
 # 必須アプリ
 cask install intellij-idea
-
 cask install iterm2
 cask install google-chrome
 cask install virtualbox
