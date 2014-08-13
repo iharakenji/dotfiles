@@ -9,7 +9,7 @@ export DOCKER_HOST=tcp://localhost:2375
 fpath=($(brew --prefix)/share/zsh/site-functions $fpath)
 
 # パスの設定
-export PATH="$HOME/.rbenv/bin:$HOME/.cabal/bin:/usr/local/bin/:$PATH"
+export PATH="$HOME/.rbenv/bin:$HOME/.cabal/bin:/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
  
 # 色を使用出来るようにする

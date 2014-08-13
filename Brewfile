@@ -11,22 +11,29 @@ install brew-cask
 install rbenv ruby-build
 install zsh
 install git git-flow tig
-install mysql mongodb memcached
+install mysql postgresql mongodb memcached
 install tmux
 install openssl
 install ricty
 install wget curl
+install gcc
 install docker boot2docker
 install ivy sbt scala giter8 typesafe-activator
 install groovy grails gradle griffon
 install node
 install jetty tomcat nginx
-cask install java
+install libxml2 libxslt libiconv
+install imagemagick
 # 必須アプリ
+cask install java
+cask install sourcetree
 cask install intellij-idea
 cask install iterm2
 cask install google-chrome
+cask install google-drive
 cask install google-japanese-ime
+cask install firefox
+cask install thunderbird
 cask install virtualbox
 cask install vagrant
 cask install kobito
@@ -36,8 +43,12 @@ cask install dropbox
 cask install evernote
 cask install xtrafinder
 cask install omnifocus
+cask install karabiner
 cask install skitch
 cask install sequel-pro
 cask install lastpass-universal
 cask install skype
+cask install sublime-text
+cask install limechat
+cask install sqwiggle
 cask alfred link
