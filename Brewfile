@@ -3,7 +3,8 @@ upgrade
 # homebrew-cask設定、インストール
 tap homebrew/binary
 tap homebrew/versions
-tap phinze/homebrew-cask
+tap caskroom/homebrew-cask
+tap caskroom/homebrew-versions
 # for ricty
 tap sanemat/font
 # 各種インストール
@@ -48,7 +49,8 @@ cask install skitch
 cask install sequel-pro
 cask install lastpass-universal
 cask install skype
-cask install sublime-text
+cask install sublime-text3
 cask install limechat
 cask install sqwiggle
+cask install clipmenu
 cask alfred link

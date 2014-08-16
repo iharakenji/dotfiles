@@ -2,6 +2,7 @@
 # 環境変数
 export LANG=ja_JP.UTF-8
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
 export JAVA_HOME=$(/usr/libexec/java_home)
 export DOCKER_HOST=tcp://localhost:2375
  
