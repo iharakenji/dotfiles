@@ -25,6 +25,7 @@ install node
 install jetty tomcat nginx
 install libxml2 libxslt libiconv
 install imagemagick
+install heroku-toolbelt
 # 必須アプリ
 cask install java
 cask install sourcetree
