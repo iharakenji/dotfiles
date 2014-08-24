@@ -11,7 +11,7 @@ tap sanemat/font
 install brew-cask
 install rbenv ruby-build
 install zsh
-install git git-flow tig
+install git git-flow tig gibo
 install mysql postgresql mongodb memcached
 install tmux
 install openssl
