@@ -54,4 +54,5 @@ cask install sublime-text3
 cask install limechat
 cask install sqwiggle
 cask install clipmenu
+cask install synergy
 cask alfred link
