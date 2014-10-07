@@ -1,71 +1,71 @@
-update
-upgrade
+brew update
+brew upgrade
 # homebrew-cask設定、インストール
-tap homebrew/binary
-tap homebrew/versions
-tap caskroom/homebrew-cask
-tap caskroom/homebrew-versions
+brew tap homebrew/binary
+brew tap homebrew/versions
+brew tap caskroom/homebrew-cask
+brew tap caskroom/homebrew-versions
 # for ricty
-tap sanemat/font
+brew tap sanemat/font
 # 各種インストール
-install brew-cask
-install rbenv ruby-build
-install zsh
-install git git-flow tig gibo
-install mysql postgresql mongodb memcached
-install datomic rethinkdb
-install spark
-install tmux
-install openssl
-install ricty
-install wget curl
-install gcc
-install docker boot2docker
-install ivy sbt scala giter8 typesafe-activator
-install groovy grails gradle griffon
-install node
-install jetty tomcat nginx
-install libxml2 libxslt libiconv
-install imagemagick
-install heroku-toolbelt
-install terminal-notifier
-cleanup
-prune
+brew install brew-cask
+brew install rbenv ruby-build
+brew install zsh
+brew install ack
+brew install git git-flow tig gibo
+brew install mysql postgresql mongodb memcached
+brew install datomic rethinkdb
+brew install spark
+brew install tmux
+brew install openssl
+brew install ricty
+brew install wget curl
+brew install gcc
+brew install docker boot2docker
+brew install ivy sbt scala giter8 typesafe-activator
+brew install groovy grails gradle griffon
+brew install node
+brew install jetty tomcat nginx
+brew install libxml2 libxslt libiconv
+brew install imagemagick
+brew install heroku-toolbelt
+brew install terminal-notifier
+brew cleanup
+brew prune
 # 必須アプリ
-cask install java
-cask install sourcetree
-cask install intellij-idea
-cask install iterm2
-cask install totalterminal
-cask install google-chrome
-cask install google-drive
-cask install google-japanese-ime
-cask install google-hangouts
-cask install firefox
-cask install thunderbird
-cask install virtualbox
-cask install vagrant
-cask install kobito
-cask install caffeine
-cask install alfred
-cask install dropbox
-cask install evernote
-cask install xtrafinder
-cask install omnifocus
-cask install karabiner
-cask install skitch
-cask install sequel-pro
-cask install lastpass-universal
-cask install skype
-cask install sublime-text3
-cask install limechat
-cask install sqwiggle
-cask install clipmenu
-cask install synergy
-cask install amazon-cloud-drive
-cask install accessmenubarapps
-cask install robomongo
-cask install mailbox
-cask install onepassword
-cask cleanup
-cask alfred link
+brew cask install java java7 java6
+brew cask install sourcetree
+brew cask install intellij-idea
+brew cask install iterm2
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install google-japanese-ime
+brew cask install google-hangouts
+brew cask install firefox
+brew cask install thunderbird
+brew cask install virtualbox
+brew cask install vagrant
+brew cask install kobito
+brew cask install caffeine
+brew cask install alfred
+brew cask install dropbox
+brew cask install evernote
+brew cask install xtrafinder
+brew cask install omnifocus
+brew cask install karabiner
+brew cask install skitch
+brew cask install sequel-pro
+# brew cask install lastpass-universal
+brew cask install skype
+brew cask install sublime-text3 textmate
+brew cask install limechat
+brew cask install sqwiggle
+brew cask install clipmenu
+brew cask install synergy
+brew cask install amazon-cloud-drive
+brew cask install accessmenubarapps
+brew cask install robomongo
+brew cask install mailbox
+brew cask install onepassword
+brew cask cleanup
+brew cask alfred link
