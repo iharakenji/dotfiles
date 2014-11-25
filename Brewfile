@@ -3,6 +3,7 @@ brew upgrade
 # homebrew-cask設定、インストール
 brew tap homebrew/binary
 brew tap homebrew/versions
+brew tap homebrew/boneyard
 brew tap caskroom/homebrew-cask
 brew tap caskroom/homebrew-versions
 # for ricty
@@ -12,6 +13,7 @@ brew install brew-cask
 brew install rbenv ruby-build
 brew install zsh
 brew install ack
+brew install android-sdk
 brew install git git-flow tig gibo
 brew install mysql postgresql mongodb memcached
 brew install datomic rethinkdb
@@ -35,7 +37,7 @@ brew prune
 # 必須アプリ
 brew cask install java java7 java6
 brew cask install sourcetree
-brew cask install intellij-idea
+brew cask install intellij-idea android-studio appcode
 brew cask install iterm2
 brew cask install google-chrome
 brew cask install google-drive
@@ -67,5 +69,6 @@ brew cask install accessmenubarapps
 brew cask install robomongo
 brew cask install mailbox
 brew cask install onepassword
+brew cask install slack
 brew cask cleanup
 brew cask alfred link
