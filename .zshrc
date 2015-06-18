@@ -1,6 +1,7 @@
 ########################################
 # 環境変数
 export LANG=ja_JP.UTF-8
+export LC_ALL=ja_JP.UTF-8
 export GROOVY_HOME=/usr/local/opt/groovy/libexec
 export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/usr/local/Caskroom"
 export JAVA_HOME=$(/usr/libexec/java_home)
@@ -11,7 +12,7 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 fpath=($(brew --prefix)/share/zsh/site-functions $fpath)
 
 # パスの設定
-export PATH="$HOME/.rbenv/bin:$HOME/.cabal/bin:/usr/local/bin:$PATH"
+export PATH="./bin:$HOME/.rbenv/bin:$HOME/.cabal/bin:/usr/local/bin:$PATH"
 eval "$(rbenv init -)"
  
 # 色を使用出来るようにする
