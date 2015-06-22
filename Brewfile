@@ -38,6 +38,8 @@ brew prune
 # 必須アプリ
 brew cask install java java7 java6
 brew cask install sourcetree
+brew cask install tower
+brew cask install versions
 brew cask install intellij-idea
 brew cask install eclipse-java
 brew cask install android-studio
