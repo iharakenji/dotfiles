@@ -33,6 +33,7 @@ brew install libxml2 libxslt libiconv
 brew install imagemagick
 brew install heroku-toolbelt
 brew install terminal-notifier
+brew install ngrok
 brew cleanup
 brew prune
 # 必須アプリ
@@ -66,6 +67,8 @@ brew cask install skitch
 brew cask install sequel-pro
 # brew cask install lastpass-universal
 brew cask install sublime-text3
+brew cask install atom
+brew cask install textwrangler
 brew cask install textmate
 brew cask install limechat
 brew cask install sqwiggle
@@ -86,7 +89,6 @@ brew cask install remote-desktop-connection
 brew cask install chrome-remote-desktop-host
 brew cask install pixelapse
 brew cask install charles-openjdk
-brew cask install atom
 brew cask install sketch
 brew cask install skype
 brew cask install adobe-reader-ja
