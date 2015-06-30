@@ -34,6 +34,7 @@ brew install imagemagick
 brew install heroku-toolbelt
 brew install terminal-notifier
 brew install ngrok
+brew install elixir
 brew cleanup
 brew prune
 # 必須アプリ
@@ -93,5 +94,7 @@ brew cask install sketch
 brew cask install skype
 brew cask install adobe-reader-ja
 brew cask install mysqlworkbench
+brew cask install xquartz
+brew cask install wireshark
 brew cask cleanup
 brew cask alfred link
