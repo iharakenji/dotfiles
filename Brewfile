@@ -92,6 +92,7 @@ brew cask install pixelapse
 brew cask install charles-openjdk
 brew cask install sketch
 brew cask install skype
+brew cask install hipchat
 brew cask install adobe-reader-ja
 brew cask install mysqlworkbench
 brew cask install xquartz
