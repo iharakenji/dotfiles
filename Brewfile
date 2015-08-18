@@ -24,7 +24,6 @@ brew install openssl
 brew install ricty
 brew install wget curl
 brew install gcc
-brew install docker boot2docker
 brew install ivy sbt scala giter8 typesafe-activator
 brew install groovy grails gradle griffon
 brew install node php56
@@ -35,6 +34,7 @@ brew install heroku-toolbelt
 brew install terminal-notifier
 brew install ngrok
 brew install elixir
+brew install ghostscript
 brew cleanup
 brew prune
 # 必須アプリ
@@ -97,5 +97,7 @@ brew cask install adobe-reader-ja
 brew cask install mysqlworkbench
 brew cask install xquartz
 brew cask install wireshark
+brew cask install insync
+brew cask install dockertoolbox
 brew cask cleanup
 brew cask alfred link
