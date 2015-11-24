@@ -73,7 +73,7 @@ brew cask install textwrangler
 brew cask install textmate
 brew cask install limechat
 brew cask install sqwiggle
-brew cask install clipmenu
+brew cask install clipy
 # brew cask install synergy
 brew cask install amazon-cloud-drive
 brew cask install accessmenubarapps
@@ -92,12 +92,13 @@ brew cask install pixelapse
 brew cask install charles-openjdk
 brew cask install sketch
 brew cask install skype
-brew cask install hipchat
+brew cask install hipchat jira-client
 brew cask install adobe-reader-ja
 brew cask install mysqlworkbench
 brew cask install xquartz
 brew cask install wireshark
 brew cask install insync
 brew cask install dockertoolbox
+brew cask install the-unarchiver
+brew cask install kindle
 brew cask cleanup
-brew cask alfred link
