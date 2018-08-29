@@ -48,8 +48,6 @@ brew install mecab mecab-ipadic
 brew install neovim
 brew install kompose
 brew install amazon-ecs-cli
-brew cleanup
-brew prune
 # 必須アプリ
 brew cask install java java8
 brew cask install sourcetree
@@ -137,4 +135,5 @@ brew cask install franz
 if [ -n "$(brew cask outdated --quiet)" ]; then
   brew cask reinstall $(brew cask outdated --quiet)
 fi
-brew cask cleanup
+brew cleanup
+brew prune
